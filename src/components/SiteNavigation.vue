@@ -1,5 +1,5 @@
 <template>
-    <header class=" h-16 sticky md:h-20 flex flex-row justify-center bg-stp-secondary border-y-2 border-black">
+    <header class=" h-16 md:h-20 flex flex-row justify-center bg-stp-secondary border-y-2 border-black">
         <nav class="flex justify-between items-center w-[92%] mx-auto">
             <RouterLink :to="{ name: 'inicio' }">
                 <div class="flex items-center gap-1 flex-1">
